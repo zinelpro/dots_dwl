@@ -68,7 +68,7 @@ static const MonitorRule monrules[] = {
 
 /* config.h */
 static const char *autostart_cmds[][1] = {
-    { "/home/zinel/.autostart", NULL },
+    { " ", NULL },
 };
 
 
