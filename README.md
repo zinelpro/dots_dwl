@@ -53,6 +53,18 @@ Feature *non-goals* for the main codebase include:
   be done through the compositor
 - Animations and visual effects
 
+autostart:
+
+```
+config.h:
+/* config.h */
+static const char *autostart_cmds[][1] = {
+    { "/patch/to/file", NULL },
+};
+
+
+```
+
 ## Building dwl
 
 dwl has the following dependencies:
